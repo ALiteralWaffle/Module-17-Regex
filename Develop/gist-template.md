@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+This is an introduction into Regex that can help you understand it and how to apply it to any future code/projects you work on in the future.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+A Regex, also know as a regular expression is a sequence of characters that states a specific pattern through text. These patterns tend to be used by string-searching algorithms in "find" or "find and replace" operations on strings or input validation. There use is mostly with theoretical computer science and in formal language theory.
 
 ## Table of Contents
 
