@@ -6,6 +6,11 @@ This is an introduction into Regex that can help you understand it and how to ap
 
 A Regex, also know as a regular expression is a sequence of characters that states a specific pattern through text. These patterns tend to be used by string-searching algorithms in "find" or "find and replace" operations on strings or input validation. There use is mostly with theoretical computer science and in formal language theory.
 
+This page will look into the Regex string for a match URL tag. Below you can read more about this line of code and other interesting things regarding Regex.
+
+Example:
+> /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+
 ## Table of Contents
 
 - [Anchors](#anchors)
