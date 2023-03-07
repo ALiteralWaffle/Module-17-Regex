@@ -41,19 +41,23 @@ This lets the program know where this code will start and where it will end.
 
 ### Quantifiers
 
-Quantifiers indicate that the previous token must be matched a certain number of times. There are different types of quantifiers that are better explained in [Greedy and Lazy Match](#greedy-and-lazy-match).
+Quantifiers indicate that the previous character must be matched a certain number of times. There are different types of quantifiers that are better explained in [Greedy and Lazy Match](#greedy-and-lazy-match).
 
 ### OR Operator
 
+OR Operator acts as a boolean, it will need to match the character it is attached to.
 
 ### Character Classes
 
+Character Classes match characters from a specified set, whether these are already existing sets or sets you define yourself.
 
 ### Flags
 
+Flags can change how an expression is read.
 
 ### Grouping and Capturing
 
+Capturing groups multiple characters together in use for extracting a substring or for referencing.
 
 ### Bracket Expressions
 
