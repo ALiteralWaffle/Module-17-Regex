@@ -1,4 +1,4 @@
-# Regex Tutorial
+# Regex Introduction
 
 This is an introduction into Regex that can help you understand it and how to apply it to any future code/projects you work on in the future.
 
@@ -29,26 +29,45 @@ Example:
 
 ### Anchors
 
+`^` This matches the starting position of the string. When in line-based work, it matches the starting point of a line.
+
+`$` This matches the end of the string. When in line-based work, it matches the ending point of a line.
+
+These are used near the start and end of the string: /`^`(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?`$`/
+
+This lets the program know where this code will start and where it will end.
+
 ### Quantifiers
+
 
 ### OR Operator
 
+
 ### Character Classes
+
 
 ### Flags
 
+
 ### Grouping and Capturing
+
 
 ### Bracket Expressions
 
+
 ### Greedy and Lazy Match
+
 
 ### Boundaries
 
+
 ### Back-references
+
 
 ### Look-ahead and Look-behind
 
+
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Ethan Alexander: OSU Web Development Student
+Github: https://github.com/ALiteralWaffle
