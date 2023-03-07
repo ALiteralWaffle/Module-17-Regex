@@ -44,8 +44,11 @@ This lets the program know where this code will start and where it will end.
 Quantifiers indicate that the previous character must be matched a certain number of times. There are different types of quantifiers that are better explained in [Greedy and Lazy Match](#greedy-and-lazy-match).
 
 * `?`: Matches previous character between 0 and 1 times.
+* 
 *  `(*)`: Matches the previous character between 0 or more times.
+
 *  `(+)`: Matches the previous character between 1 or more times.
+*  
 *  `{2,6}`: forces the input of characters to be between two and six characters long.
 
 Here are some of the areas these are used in: /^(https`?`:\/\/)`?`([\da-z\.-]`+`)\.([a-z\.]`{2,6}`)([\/\w \.-]`*`)`*`\/?$/
@@ -56,9 +59,25 @@ These tell the program how many instances of the character or group must be pres
 
 OR Operator acts as a boolean, it will need to match the character it is attached to.
 
+* `|`: Acts as a boolean that matches characters before or after where it is input.
+
 ### Character Classes
 
 Character Classes match characters from a specified set, whether these are already existing sets or sets you define yourself.
+
+* `[ABC]`: Character in the brackets will match any character in the set.
+
+* `[^ABC]`: Adding a caret will match any chracter not in the set.
+
+* `[A-Z]`: Adding a dash between characters will select a range.
+
+* `\w`: Matches any word character.
+
+* `\d`: Matches any digit character.
+
+Here are some of the areas these are used in: /^(https?:\/\/)?(`[\da-z\.-]`+)\.(`[a-z\.]`{2,6})(`[\/\w \.-]`*)*\/?$/
+
+This is one of the primarily used parts of Regex and will likely be seen in any code using it.
 
 ### Flags
 
