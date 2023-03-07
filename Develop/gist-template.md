@@ -29,6 +29,8 @@ Example:
 
 ### Anchors
 
+Anchors let the program know where the start and end of the line of code is.
+
 * `^`: This matches the starting position of the string. When in line-based work, it matches the starting point of a line.
 
 * `$`: This matches the end of the string. When in line-based work, it matches the ending point of a line.
@@ -39,6 +41,7 @@ This lets the program know where this code will start and where it will end.
 
 ### Quantifiers
 
+Quantifiers indicate that the previous token must be matched a certain number of times. There are different types of quantifiers that are better explained in [Greedy and Lazy Match](#greedy-and-lazy-match).
 
 ### OR Operator
 
@@ -70,4 +73,5 @@ This lets the program know where this code will start and where it will end.
 ## Author
 
 Ethan Alexander: OSU Web Development Student
+
 Github: https://github.com/ALiteralWaffle
