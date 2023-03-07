@@ -61,18 +61,19 @@ Capturing groups multiple characters together in use for extracting a substring 
 
 ### Bracket Expressions
 
+Bracket Expressions use square brackets to make regular expressions to match a single character or element that is assigned.
+
+Examples of these can be found in [Character Classes](#character-classes).
 
 ### Greedy and Lazy Match
 
+* "Greedy" quantifiers will match the longest possible string, it will have the program try to match as many of its quantified characters as possible.
+
+* "Lazy" quantifiers will match the shortest possible string, it will have the program try to match as little of its quantified characters as possible.
 
 ### Boundaries
 
-
 ### Back-references
-
-
-### Look-ahead and Look-behind
-
 
 ## Author
 
