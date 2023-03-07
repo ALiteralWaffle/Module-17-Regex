@@ -29,9 +29,9 @@ Example:
 
 ### Anchors
 
-`^` This matches the starting position of the string. When in line-based work, it matches the starting point of a line.
+* `^`: This matches the starting position of the string. When in line-based work, it matches the starting point of a line.
 
-`$` This matches the end of the string. When in line-based work, it matches the ending point of a line.
+* `$`: This matches the end of the string. When in line-based work, it matches the ending point of a line.
 
 These are used near the start and end of the string: /`^`(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?`$`/
 
