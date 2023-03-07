@@ -44,11 +44,11 @@ This lets the program know where this code will start and where it will end.
 Quantifiers indicate that the previous character must be matched a certain number of times. There are different types of quantifiers that are better explained in [Greedy and Lazy Match](#greedy-and-lazy-match).
 
 * `?`: Matches previous character between 0 and 1 times.
-* 
+
 *  `(*)`: Matches the previous character between 0 or more times.
 
 *  `(+)`: Matches the previous character between 1 or more times.
-*  
+
 *  `{2,6}`: forces the input of characters to be between two and six characters long.
 
 Here are some of the areas these are used in: /^(https`?`:\/\/)`?`([\da-z\.-]`+`)\.([a-z\.]`{2,6}`)([\/\w \.-]`*`)`*`\/?$/
